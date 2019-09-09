@@ -12,6 +12,9 @@
 		090B225A2325FA720073232F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090B22582325FA720073232F /* Main.storyboard */; };
 		090B225C2325FA740073232F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090B225B2325FA740073232F /* Assets.xcassets */; };
 		090B225F2325FA740073232F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090B225D2325FA740073232F /* LaunchScreen.storyboard */; };
+		090B2269232601250073232F /* DCLoadingV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B2266232601250073232F /* DCLoadingV.swift */; };
+		090B226A232601250073232F /* DCLoading.png in Resources */ = {isa = PBXBuildFile; fileRef = 090B2267232601250073232F /* DCLoading.png */; };
+		090B226B232601250073232F /* DCLoadingV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090B2268232601250073232F /* DCLoadingV.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		090B225B2325FA740073232F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		090B225E2325FA740073232F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		090B22602325FA740073232F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090B2266232601250073232F /* DCLoadingV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCLoadingV.swift; sourceTree = "<group>"; };
+		090B2267232601250073232F /* DCLoading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DCLoading.png; sourceTree = "<group>"; };
+		090B2268232601250073232F /* DCLoadingV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCLoadingV.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				090B22542325FA720073232F /* AppDelegate.swift */,
 				090B22562325FA720073232F /* ViewController.swift */,
 				090B22582325FA720073232F /* Main.storyboard */,
+				090B2267232601250073232F /* DCLoading.png */,
+				090B2266232601250073232F /* DCLoadingV.swift */,
+				090B2268232601250073232F /* DCLoadingV.xib */,
 				090B225B2325FA740073232F /* Assets.xcassets */,
 				090B225D2325FA740073232F /* LaunchScreen.storyboard */,
 				090B22602325FA740073232F /* Info.plist */,
@@ -122,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090B226B232601250073232F /* DCLoadingV.xib in Resources */,
 				090B225F2325FA740073232F /* LaunchScreen.storyboard in Resources */,
+				090B226A232601250073232F /* DCLoading.png in Resources */,
 				090B225C2325FA740073232F /* Assets.xcassets in Resources */,
 				090B225A2325FA720073232F /* Main.storyboard in Resources */,
 			);
@@ -137,6 +148,7 @@
 			files = (
 				090B22572325FA720073232F /* ViewController.swift in Sources */,
 				090B22552325FA720073232F /* AppDelegate.swift in Sources */,
+				090B2269232601250073232F /* DCLoadingV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
